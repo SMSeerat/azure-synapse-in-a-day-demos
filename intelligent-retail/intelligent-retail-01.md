@@ -121,7 +121,7 @@ You will learn:
    | Encoding | _select `UTF-8`_ |
    | Event compression type | _select `None`_ |
 
-   ![The form is configured as described.](media/rp6.png "IoT Hub")
+   ![The form is configured as described.](media/page3task-5.4.png "IoT Hub")
 
 5. Select **Save**.
 
