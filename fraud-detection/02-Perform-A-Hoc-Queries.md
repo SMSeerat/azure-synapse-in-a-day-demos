@@ -144,13 +144,13 @@ This first task will export credit card predictions from the prior exercise into
 
     ![Create a data flow.](media/azure-synapse-pipeline-dataflow.png 'Data flow')
 
-30. In the Adding data flow tab, select **DataflowCreditCard** from the Existing data flow drop-down list.  Then, select **OK** to continue.
+30. Select the data flow and then navigate to the **Settings** menu, in data flow select **DataflowCreditCard**.
 
-    ![The data flow is selected.](media/azure-synapse-pipeline-dataflow-1.png 'Data flow')
+    ![The data flow is selected.](media/df1.png 'Data flow')
 
-31. Select the data flow and then navigate to the **Settings** menu.  In the Staging sub-menu, change the Staging linked service to **SynapseLabFraudADLS**, the staging storage folder's container to **synapse** and folder to **creditcard**.
+31.  In the **Settings** menu, under the Staging sub-menu, change the Staging linked service to **SynapseLabFraudADLS**, the staging storage folder's container to **synapse** and folder to **creditcard**.
 
-    ![The PolyBase settings are created.](media/Step%2031.png 'Settings')
+     ![The PolyBase settings are created.](media/df2.png 'Settings')
 
 32. Select **Debug** to run the pipeline.
 
